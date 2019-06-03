@@ -25,6 +25,11 @@ services:
     networks:
       - justkanban-dev
 
+volumes:
+  justkanban_data:
+    external:
+      name: justkanban_data
+
 networks:
   justkanban-dev:
     driver: bridge
