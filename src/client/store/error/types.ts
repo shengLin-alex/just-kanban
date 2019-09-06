@@ -1,5 +1,5 @@
 export interface ErrorState {
-    error: string
+    error?: string
 }
 
 export const types =  {
