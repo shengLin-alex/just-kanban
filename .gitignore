@@ -277,3 +277,4 @@ __pycache__/
 **/.env
 
 .DS_Store
+db_data/
