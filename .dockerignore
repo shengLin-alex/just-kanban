@@ -1,0 +1,7 @@
+node_modules/
+.idea/
+build/
+db_data/
+*.md
+*.example
+.DS_Store

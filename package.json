@@ -11,7 +11,7 @@
     "dev": "webpack-dev-server --inline --config webpack.dev.js",
     "build-dev": "yarn tsc && yarn webpack-dev",
     "build-prod": "yarn tsc && yarn webpack-prod",
-    "docker-start": "yarn build-dev && yarn start",
+    "docker-start": "npm run tsc && npm run webpack-prod && npm run start",
     "tsc": "tsc",
     "webpack-dev": "webpack --config webpack.dev.js",
     "webpack-prod": "webpack --config webpack.prod.js",
