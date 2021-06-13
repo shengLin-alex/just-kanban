@@ -44,10 +44,11 @@ MONGODB_PORT=27017
 MONGODB_HOST_DIR=/path/to/your/host/computer/persistent/data/folder
 ```
 
-### running
+### develop
 
 ```sh
-$ docker-compose up mongodb-docker
+$ cd docker-config
+$ docker compose up mongodb-docker
 $ cd ..
 $ npm install
 $ npm run build-dev
@@ -56,3 +57,10 @@ $ npm run dev
 ```
 
 The server running on 8080 port, and vue running on 8081 port
+
+### run on docker
+
+```
+$ cd docker-config
+$ docker compose up
+```
